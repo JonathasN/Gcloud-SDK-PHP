@@ -274,7 +274,7 @@ RUN git config --system credential.'https://source.developers.google.com'.helper
 
 ENV COMPOSER_ALLOW_SUPERUSER 1
 ENV COMPOSER_HOME /tmp
-ENV COMPOSER_VERSION 1.10.26
+ENV COMPOSER_VERSION 2.4.1
 
 RUN curl \
     --silent \
